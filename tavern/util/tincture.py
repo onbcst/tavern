@@ -1,8 +1,8 @@
 import inspect
 import logging
 
-from tavern.schemas.extensions import get_wrapped_response_function
 from tavern.util import exceptions
+from tavern.util.extfunctions import get_wrapped_response_function
 
 logger = logging.getLogger(__name__)
 
